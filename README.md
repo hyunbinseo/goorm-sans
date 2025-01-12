@@ -37,13 +37,27 @@
 ```
 
 <details>
-  <summary>패키지 설치 방식</summary>
+  <summary>npm 패키지 설치</summary>
 
 ```shell
 npm i goorm-sans
 ```
 
-폰트 패밀리 지정
+CSS 파일을 불러옵니다.
+
+```
+node_modules/goorm-sans/index.css
+```
+
+```css
+@import 'goorm-sans'; /* Vite CSS */
+```
+
+```ts
+import 'goorm-sans'; // Vite JavaScript, TypeScript
+```
+
+폰트 패밀리를 지정합니다.
 
 ```css
 body {
@@ -53,22 +67,6 @@ pre,
 code {
   font-family: 'Goorm Sans Code', monospace;
 }
-```
-
-CSS 파일 불러오기
-
-```
-node_modules/goorm-sans/index.css
-```
-
-[Vite](https://vite.dev/) 상에선 다음과 같이 불러올 수 있습니다.
-
-```css
-@import url('goorm-sans'); /* CSS */
-```
-
-```ts
-import 'goorm-sans'; // JavaScript, TypeScript
 ```
 
 </details>
