@@ -1,7 +1,7 @@
 {
 	"name": "goorm-sans",
 	"description": "구름 산스, 구름 산스 코드",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"scripts": {
 		"postversion": "git push && git push --tags"
 	},
