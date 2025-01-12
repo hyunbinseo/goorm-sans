@@ -1,0 +1,31 @@
+/* goorm-sans-1.0.0.zip */
+/* v1.0.0/GoormSans.min.css */
+/* Version 1.000; Build Release */
+
+@font-face {
+	font-family: 'Goorm Sans';
+	font-weight: 400;
+	src: url('./goorm-sans-regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Goorm Sans';
+	font-weight: 500;
+	src: url('./goorm-sans-medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Goorm Sans';
+	font-weight: 700;
+	src: url('./goorm-sans-bold.woff2') format('woff2');
+}
+
+/* goorm-sans-code-1.0.1.zip */
+/* v1.0.1/GoormSansCode.min.css */
+/* Version 1.000; Build Release */
+
+@font-face {
+	font-family: 'Goorm Sans Code';
+	font-weight: 400;
+	src: url('./goorm-sans-code.woff2') format('woff2');
+}
